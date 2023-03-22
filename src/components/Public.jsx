@@ -14,9 +14,10 @@ const Public = () => {
         <div className="h-[2px] rounded-full my-4 bg-black"></div>
         <main className="md:w-3/4 text-sm md:text-base">
           <p>
-            The system has complete authentication using Node JS, mongo DB for
-            database management and react in combination with Tailwind CSS for
-            frontend and user interface.
+            The system has complete authentication with role based authorization
+            using Node JS, mongo DB for database management and react and
+            tailwind CSS. Depending with user roles each is assigned to
+            different privilege.Welcome!
           </p>
           <div className="my-3 italic font-semibold">
             <p>Kasarani, Nairobi</p>
