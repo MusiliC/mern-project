@@ -30,7 +30,7 @@ const Public = () => {
         </main>
       </div>
       <div className="w-5/6 mx-auto">
-        <div className="h-[2px] rounded-full my-4 bg-black"></div>
+        <div className=" h-[2px] rounded-full my-4 bg-black"></div>
         <footer className="text-primary-500 font-semibold">
           <Link to="/login">Employee Login</Link>
         </footer>

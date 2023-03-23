@@ -64,9 +64,8 @@ const Login = () => {
   };
 
   const content = (
-    <section className="py-10  w-5/6 mx-auto  ">
-      
-      <div className="md:w-3/4 lg:w-1/2 mx-auto min-h-[70vh] text-sm md:text-base">
+    <section className="py-10    ">
+      <div className="w-5/6 md:w-3/4 lg:w-1/2 mx-auto min-h-[70vh] text-sm md:text-base">
         <header>
           <p className="title text-center">Employee Login</p>
         </header>
@@ -107,12 +106,18 @@ const Login = () => {
               )}
             </div>
             <label htmlFor="">
-              <input type="checkbox" id="persist" onChange={handleToggle} checked={persist} /> Trust This Device
+              <input
+                type="checkbox"
+                id="persist"
+                onChange={handleToggle}
+                checked={persist}
+              />{" "}
+              Trust This Device
             </label>
           </form>
         </main>
       </div>
-      <div className="w-5/6 mx-auto">
+      <div className="w-[95%] md:w-5/6 mx-auto">
         <div className="h-[2px] rounded-full my-4 bg-black"></div>
         <footer className="text-primary-500 font-semibold">
           <Link to={"/"}>Back to Home</Link>
